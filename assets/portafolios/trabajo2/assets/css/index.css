@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(247, 146, 6); /* Fallback color */
+  margin: 0;
+}
+
+/* Estilos del header */
+header {
+  background-image: url('../img/portada.jpg' ); width: 1951px; height: 250px;
+  background-color: #921919;
+  color: #0e0d0d;
+  padding: 100px 200px;
+  text-align: center;}
+
+/* Estilos de la navegación */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+/* Estilos de los productos */
+.productos {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los productos se ajusten en diferentes líneas */
+  justify-content: space-around; /* Distribuye los productos uniformemente */
+  padding: 20px;
+}
+
+.producto {
+  width: 300px; /* Ancho de cada producto */
+  border: 1px solid #111111; /* Borde del producto */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center; /* Centra el contenido dentro de cada producto */
+}
+
+.producto img {
+  border-radius: 10px; /* Bordes redondeados */
+  max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+  height: auto; /* Mantiene la relación de aspecto de la imagen */
+}
+
+/* Estilos de los botones */
+button {
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #921919;
+  color: rgb(13, 13, 14);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos del footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #921919;
+  color: rgb(8, 8, 8);
+}
